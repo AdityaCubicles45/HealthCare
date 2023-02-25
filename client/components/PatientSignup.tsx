@@ -30,7 +30,7 @@ function PatientSignup() {
     <div id='PatientSignup' className={styles.main} onClick={() => console.log(show)}>
       <div className={styles.wave_bg}>
         <div className={styles.banner}>
-          <span className='text-4xl'>Patient Details</span>
+          <span className='text-4xl'>REGISTER AS A PATIENT</span>
         </div>
         <div className={styles.content_box}>
           <img src="/images/patient_font.png" alt="" className="w-4/12 drop-shadow-3xl border-4" />

@@ -35,9 +35,9 @@ function FontPage() {
     img_container: `mt-10 ml-0 w-4/12 h-4/6`,
     img_box: `w-full h-full`,
     img: `w-full h-full drop-shadow-3x1 border-4`,
-    btn_box: `w-1/12 h-96 flex flex-col justify-between items-center`,
-    btn_light_pink: `w-36 h-12 border-2 bg-light-pink drop-shadow-2xl active:bg-dark_pink active:mt-2 active:drop-shadow-xl`,
-    btn_light_sky: `w-36 h-12 border-2 bg-light-sky drop-shadow-2xl active:bg-ocen_blue active:mt-2 active:drop-shadow-xl`,
+    btn_box: `w-5/12 h-96 flex flex-col justify-between items-center`,
+    btn_light_pink: `w-70 h-17 border-2 bg-light-pink drop-shadow-2xl active:bg-dark_pink active:mt-2 active:drop-shadow-xl`,
+    btn_light_sky: `w-70 h-17 border-2 bg-light-sky drop-shadow-2xl active:bg-ocen_blue active:mt-2 active:drop-shadow-xl`,
     btn_txt: `text-2xl`,
     small_animation_box: `bg-white w-5/12 h-48 border-2 drop-shadow-2.5xl p-2 flex justify-center items-center`
   }
@@ -48,17 +48,17 @@ function FontPage() {
           <div className={styles.animation_box}>
             <TypeAnimation
               sequence={[
-              'HEALTHY RAHO: A Decentralized Secured Health Report system based on Blockchain and Web3 Technology!!!',
+              'HealthyRaho: A Decentralized Secured Health Report system based on  5ire Blockchain and Web3 Technology!!!',
               1000,
-              'HealthChain: Empowering Secure and Transparent Health Care through Blockchain and Web3!!!',
+              'HealthyRaho: Empowering Secure and Transparent Health Care through 5ire Blockchain and Web3!!!',
               1000,
-              'HealthChain: Revolutionizing Health Care through Blockchain and Web3 Technology!!!',
+              'HealthyRaho: Revolutionizing Health Care through 5ire Blockchain and Web3 Technology!!!',
               1000,
-              'HealthChain: A Blockchain and Web3-based Health Care Platform for Secure and Efficient Care!!!',
+              'HealthyRaho: A 5ire Blockchain and Web3-based Health Care Platform for Secure and Efficient Care!!!',
               1000,
-              'HealthChain: A Blockchain and Web3-Powered Healthcare Network for Seamless Patient Care!!!',
+              'HealthyRaho: A 5ire Blockchain and Web3-Powered Healthcare Network for Seamless Patient Care!!!',
               1000,
-              'HealthChain: Connecting Traditional Health Care with Blockchain and Web3 Technology!!!',
+              'HealthyRaho: Connecting Traditional Health Care with 5ire Blockchain and Web3 Technology!!!',
               1000,
               ]}
               speed={70} // Custom Speed from 1-99 - Default Speed: 40
@@ -77,14 +77,14 @@ function FontPage() {
             </div>
             <div className={styles.btn_box}>
               <Link className={styles.btn_light_pink} href={"/components/AddHospital"} onClick={handleConnect}>
-                <span className='text-4xl'>{"<-"}</span>
-                <span className={styles.btn_txt}> {"Hospital"} </span>
+                <span className='text-4xl'>{""}</span>
+                <span className={styles.btn_txt}> {"REGISTER AS A HOSPITAL"} </span>
               </Link>
 
               <button className={styles.btn_light_sky}>
                 <Link href="/#PatientSignup">
-                  <span className={styles.btn_txt}> lets Go </span>
-                  <span className='text-4xl'>{"- >"}</span>
+                  <span className={styles.btn_txt}> PATIENT DETAIL </span>
+                  <span className='text-4xl'>{""}</span>
                 </Link>
               </button>
 
