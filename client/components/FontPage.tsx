@@ -34,8 +34,8 @@ function FontPage() {
     content_box: `flex justify-around items-center w-full h-full mt-10`,
     img_container: `mt-10 ml-0 w-4/12 h-4/6`,
     img_box: `w-full h-full`,
-    img: `w-full h-full drop-shadow-3xl border-4`,
-    btn_box: `w-4/12 h-96 flex flex-col justify-between items-center`,
+    img: `w-full h-full drop-shadow-3x1 border-4`,
+    btn_box: `w-1/12 h-96 flex flex-col justify-between items-center`,
     btn_light_pink: `w-36 h-12 border-2 bg-light-pink drop-shadow-2xl active:bg-dark_pink active:mt-2 active:drop-shadow-xl`,
     btn_light_sky: `w-36 h-12 border-2 bg-light-sky drop-shadow-2xl active:bg-ocen_blue active:mt-2 active:drop-shadow-xl`,
     btn_txt: `text-2xl`,
@@ -48,7 +48,7 @@ function FontPage() {
           <div className={styles.animation_box}>
             <TypeAnimation
               sequence={[
-              'HealthChain: A Decentralized Health Care Solution powered by Blockchain and Web3 Technology!!!',
+              'HEALTHY RAHO: A Decentralized Secured Health Report system based on Blockchain and Web3 Technology!!!',
               1000,
               'HealthChain: Empowering Secure and Transparent Health Care through Blockchain and Web3!!!',
               1000,
