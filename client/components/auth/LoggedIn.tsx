@@ -13,7 +13,7 @@ function LoggedIn() {
         <img src="/images/varify.png" alt="" />
       </div>
       <div className={styles.box}>
-        <span className='text-2xl'>User Varified ✅</span>
+        <span className='text-2xl'>User Verified ✅</span>
       </div>
 
     </div>

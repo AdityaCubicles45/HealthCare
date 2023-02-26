@@ -21,7 +21,7 @@ function Signup() {
   let provider: any
   let signer: any
   if(typeof window !== 'undefined') {
-    provider = new ethers.providers.Web3Provider(window.ethereum)
+    provider = new ethers.providers.Web3Provider(window.fire)
     signer = provider.getSigner()
   }
 
@@ -29,18 +29,12 @@ function Signup() {
     try{
       
       if (typeof window !== 'undefined') {
-        const chainId = await window.ethereum.request({ method: 'eth_chainId' })
-        if(chainId != '0x13881') {
-          await window.ethereum.request({
-            method: 'wallet_switchEthereumChain',
-            params: [{ chainId: '0x13881' }],
-          })
-        }
-        await window.ethereum.request({ method: 'eth_requestAccounts' })
+        const accounts=await window.fire.request({ method: 'eth_requestAccounts' })
+      }
         setConnected(true)
         setSignupForm({...signupForm, walletAddress: await signer.getAddress()})
       }
-    }catch(err) {
+    catch(err) {
       console.log(err)
     }
   }

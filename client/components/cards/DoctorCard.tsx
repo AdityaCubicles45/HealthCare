@@ -33,11 +33,11 @@ function DoctorCard(props: any) {
   })
   
 
-  const deployAddress = "0x2a2D6a534Fab584A10A1d09BAeCF81E0977bC124"
+  const deployAddress = "0x15d18D823672cB6C16fC7D176959f2e2286B4896"
   let provider: any
   let signer: any
   if(typeof window !== 'undefined') {
-    provider = new ethers.providers.Web3Provider(window.ethereum)
+    provider = new ethers.providers.Web3Provider(window.fire)
     signer = provider.getSigner()
   }
 
